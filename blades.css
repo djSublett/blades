@@ -6,6 +6,8 @@ h2 {background-color: green; color: white; text-align: center; text-decoration: 
 
 .title{font-weight: bolder;}
 
-.name{color: white;}
+.name{color: white; width: 60%; align-content: center;}
 
 .mowing-man{border-radius: 50px;}
+
+.button{text-align: center; background-color: green; border: solid white 1px;}
