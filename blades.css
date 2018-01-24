@@ -1,0 +1,11 @@
+body {background-color: black;}
+
+h1 {background-color: green; color: white; text-align: center; font-size: 100px; font-weight: bolder;}
+
+h2 {background-color: green; color: white; text-align: center; text-decoration: underline; font-size: 40px;}
+
+.title{font-weight: bolder;}
+
+.name{color: white;}
+
+.mowing-man{border-radius: 50px;}

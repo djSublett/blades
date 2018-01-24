@@ -10,49 +10,56 @@
 <!--this says that no matter what device that is in our viewport, our website
  will scale 100 percent of its width-->
       <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Blades On A Budget</title>
 
-<!--added the link for bootstrap compatibiity-->
-      <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <title>Blades On A Budget</title>
 
-      <link rel="stylesheet" type="blades/css href="blades.css">
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <link rel="stylesheet" href="blades.css">
+
+
+
+
   </head>
 
   <body>
 
+        <h1>Blades <img class="mowing-man" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8REhURExMVFhUXFhkVFxgXFR0WGRUTHhgWFhkVFxgYHSggGh0lGxUVLTIhJSkrLi4uFx81ODMsNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAMIBAwMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAABwgFBgECBAP/xABDEAACAgECAgcEBgcHAwUAAAABAgADEQQFEiEGBxMxQVFhInGBkSMyQlKx0QgUYnKSk6EVM0RTVILBFyRDNIOi8PH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AnGIiAiIgIiICIiAiIgIiICIiAiIgIiICIiB1dwBkkADvJ5THU9INE7cC6mhmzjhFqk592Zz0g2SjW0PprwTW/fhip9CCJBnTXqdq0Vb6ldeldS9wuUg58FDV5LHyAWBYQGRR1qda36ix0mk4W1A+u5HEtWfADxf38h6yIujXWLumgPDVebKxy4LMuuP2eLms1bVah7HaxyWd2LMT3lickn4mBkN06Sa7UsXu1N1hJzzsOB7lBwo9AJ22vpNr9MwejVXIQc8rDwn95SeFvcRMRECxHVj1uLrGXSa3hS88ksHJLT4Aj7LH5H07pLQlHkYggg4I5gjvB8xLX9U3SVtw2+uyw5tr+isJ+0y4w/vIx8cwNziIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgJoHWt0Ps3CpShZ2XCV154a0Z2AfUP58KDkPf5zf50t+qeeOR5+XLvgUn19C12OitxBWKhsY4gDjOPWeeejcP72znn225+ftHnPPAREQEsx1A7bZTtvG4wLrGsQH7mAoPuODKzy23VXuj6na9NY/1gnZk+fASgPL0AgbbERAREQEREBERAREQEREBERAREQEREBERAREQEREBERATCdNb3r0GqdASwofGO/6pH4GZudXUEEEZB5EHuI8jAo/OJYjrX6uNENBdqNJp1S6si08GfarH94MdwwpJ/2yu8BETsqknAGSeQA8TA6y4PV7oew23SV4wRQjEYx7TDiOfXnIc6vep/VWW0an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" alt="man mowing grass" style="width:90px;height:90px;">n A Budget</h1>
 
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <!--this class says the columns span all 12 of the available bootstrap
-           columns on medium size screens >992px and the text will center-->
 
-              <h1>Blades On A Budget</h1>
 
+      <h2>Grass cutting,<br /> without the bank account busting</h2>
+
+          <form>
+            <div class="form-group name">
+              <label for="exampleInputName">Name:</label>
+              <input type="name" class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Enter name...">
+              <small id="nameHelp" class="form-text text-muted"></small>
             </div>
-          </div>
-
-          <hr>
-
-          <div class="row">
-            <!--created 3 columns that take up equal space on the page in
-             medium width viewport-->
-            <div class="col-md-4">
-                <h3>Post Title 1</h3>
-                  <p>i put this here</p>
+            <div class="form-group name">
+              <label for="exampleInputPhoneNumber">Phone Number:</label>
+              <input type="phoneNumber" class="form-control" id="exampleInputPhoneNumber" placeholder="Phone number here...">
             </div>
 
-            <div class="col-md-4">
-                <h3>Post Title 2</h3>
-                  <p>iewhfisuehfiewui</p>
-            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
 
-            <div class="col-md-4">
-              <h3>Post Title 3</h3>
 
-            </div>
-          </div>
+          <div class="form-check form-check-inline name">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+          <label class="form-check-label" for="inlineCheckbox1">Lawn Cut</label>
+        </div>
+        <div class="form-check form-check-inline name">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+          <label class="form-check-label" for="inlineCheckbox2">Gutter Clean-Out</label>
+        </div>
+        <div class="form-check form-check-inline name">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+          <label class="form-check-label" for="inlineCheckbox3">Weed Eating</label>
+        </div>
+
 
 
 
