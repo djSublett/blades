@@ -6,11 +6,12 @@ h2 {background-color: green; color: white; text-align: center; text-decoration: 
 
 .title{font-weight: bolder;}
 
-.form-center{width: 60%;}
+.container{width: 80%; color: white;}
 
-
-.name{color: white; margin: 0 auto;}
+.name{color: white; margin-left: 0 auto; width: 60%; align-content: center;}
 
 .mowing-man{border-radius: 50px;}
 
-.button{text-align: center; background-color: green; border: solid white 1px;}
+
+
+.btn{background-color: green; border: 3px solid white; align-self: center;}

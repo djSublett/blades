@@ -1,4 +1,15 @@
-#checkboxes{text-align: center;}
-.button-align{}
+.container-fluid{text-align: center;}
 
-.button{margin-top: 20px;}
+.quote{color: blue;}
+
+.container{align-content: center;}
+
+div{color: white; margin: 0 auto; }
+#about{font-size: 20px;}
+#volunteer{font-size:20px;}
+
+.checkbox-text{color: white;}
+
+.checkbox-container{text-align: center;}
+
+.btn{margin: 10px;}
