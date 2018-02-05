@@ -1,12 +1,5 @@
-body {background-color: black;}
 
-h1 {background-color: green; color: white; text-align: center; font-size: 100px; font-weight: bolder;}
-
-h2 {background-color: green; color: white; text-align: center; text-decoration: underline; font-size: 40px;}
-
-.title{font-weight: bolder;}
-
-.container{width: 80%; color: white;}
+.container{width: 80%; color: white; margin-top: 50px;}
 
 .name{color: white; margin-left: 0 auto; width: 60%; align-content: center;}
 

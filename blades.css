@@ -1,14 +1,18 @@
+body {background-color:#000;}
+
+h1 {background-color:#2eb82e; color:#fff; text-align: center; font-size: 100px; font-weight: bolder; padding-bottom:10px;}
+
+
 .container-fluid{text-align: center;}
 
 .quote{color: blue;}
 
+
+.hr{background-color:#2eb82e;}
+
 .container{align-content: center;}
 
-div{color: white; margin: 0 auto; }
-#about{font-size: 20px;}
-#volunteer{font-size:20px;}
-
-.checkbox-text{color: white;}
+.checkbox-text{color:#fff;}
 
 .checkbox-container{text-align: center;}
 
