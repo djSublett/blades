@@ -16,10 +16,12 @@
    is 769 px or wider */ {
    .nav{margin-top:3em;flex-direction:row;justify-content: space-around;margin:20px;}
    .main-header{height:50px;justify-content: flex-end;}
+  
 
 
  }
 
-@media (min-width: 1025px) {
-  .
+@media (min-width: 1024px) {
+
+
 }

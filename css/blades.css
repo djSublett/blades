@@ -15,8 +15,10 @@ h1 {background-color:#2eb82e; color:#fff; text-align: center; font-size: 100px; 
 
 .checkbox-text{color:#fff;}
 
-.checkbox-container{text-align: center;margin-top:40px;}
+.checkbox-container{margin:0 auto;width:11%;display:block;}
+
+
 
 .btn{margin: 10px;}
 
-.submit{text-align: center; margin-top: 20px;}
+.submit{text-align: center; margin-top: 20px; margin-left:-25px;}
