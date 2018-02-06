@@ -1,7 +1,8 @@
 /*main navigation*/
 
-.nav{display:flex;flex-direction: column;}
+.nav{display:flex;flex-direction: column; margin-top:0em;}
 
+.nav-header{padding-bottom:10px; }
 .nav a{color:#fff; display:block; font-size: 1.5em; text-align: center; padding:.4em;}
 
 .nav a:hover{color:#2eb82e;border-color:#2eb82e;}

@@ -1,6 +1,6 @@
 body {background-color:#000;}
 
-h1 {background-color:#2eb82e; color:#fff; text-align: center; font-size: 100px; font-weight: bolder; padding-bottom:10px;}
+h1 {background-color:#2eb82e; color:#fff; text-align: center; font-size: 100px; font-weight: bolder; padding-bottom:20px;}
 
 
 .container-fluid{text-align: center;}
@@ -12,8 +12,11 @@ h1 {background-color:#2eb82e; color:#fff; text-align: center; font-size: 100px; 
 
 .container{align-content: center;}
 
+
 .checkbox-text{color:#fff;}
 
-.checkbox-container{text-align: center;}
+.checkbox-container{text-align: center;margin-top:40px;}
 
 .btn{margin: 10px;}
+
+.submit{text-align: center; margin-top: 20px;}
