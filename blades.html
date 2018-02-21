@@ -19,7 +19,7 @@
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-     <link rel="stylesheet" href="css/bootstrap.css">
+
 
      <link rel="stylesheet" href="css/blades.css">
 
@@ -32,7 +32,7 @@
   <body>
 
     <!--start header navigation-->
-      <div class="container-header nav-header">
+      <div class="container-header nav-header navList">
           <header class="main-header">
               <ul class="nav">
                   <li><a href="#">About</a></li>
@@ -43,8 +43,7 @@
 
       <hr class="hr">
 
-<!--start form for user information-->
-
+<!--start form for collecting user information-->
     <form class="container">
         <div class="form-group">
           <label class="form-group" for="nameForm">Name:</label>
@@ -60,35 +59,44 @@
         </div>
       </form>
 
+<!--checkboxes-->
       <form class="checkbox-container">
         <div class="check-center">
         <div>
             <input type="checkbox" id="grass" name="services">
-            <label class="checkbox-text" for="name">Grass Cutting</label>
+            <label class="checkbox-text" for="services">Grass Cutting</label>
           </div>
           <div>
             <input type="checkbox" id="weed" name="services">
-            <label class="checkbox-text" for="name">Weed Eating</label>
+            <label class="checkbox-text" for="services">Weed Eating</label>
           </div>
           <div>
             <input type="checkbox" id="gutters" name="services">
-            <label class="checkbox-text" for="name">Gutters Clean</label>
+            <label class="checkbox-text" for="services">Gutters Cleaned</label>
           </div>
           <div>
             <input type="checkbox" id="weed-killer" name="services">
-            <label class="checkbox-text" for="name">Weed Killer</label>
+            <label class="checkbox-text" for="services">Weed Killer</label>
           </div>
         </div>
         </form>
 
 
-
-      <div class="submit">
+<!--submit button-->
+    <div class="submit">
       <button type="button" class="btn btn-primary btn-lg">Submit</button>
     </div>
 
+    <div class="about">
+      <p>I'm just a man looking to save other people some money on yard services,
+        while putting a few extra bucks in my daughter's college savings account</p>
+    </div>
 
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="js/blades.js"></script>
+
     </body>
 
 
