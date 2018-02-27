@@ -2,6 +2,7 @@ body {background-color:#000;}
 
 h1 {background-color:#2eb82e; color:#fff; text-align: center; font-size: 100px; font-weight: bolder; padding-bottom:20px;}
 
+.mowing-man{border-radius: 50px;}
 
 .container-fluid{text-align: center;}
 
@@ -11,6 +12,8 @@ h1 {background-color:#2eb82e; color:#fff; text-align: center; font-size: 100px; 
 .hr{background-color:#2eb82e;}
 
 .container{align-content: center;}
+
+.label{color:white;}
 
 
 .checkbox-text{color:#fff;}
