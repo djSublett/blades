@@ -11,15 +11,9 @@ h1 {background-color:#2eb82e; color:#fff; text-align: center; font-size: 100px; 
 
 .hr{background-color:#2eb82e;}
 
-.container{align-content: center;}
 
 .label{color:white;}
-
-
-.checkbox-text{color:#fff;}
-
-.checkbox-container{margin:0 auto;width:11%;display:block;}
-
+.checkbox-text{color:white;};
 
 
 .btn{margin: 10px;}
