@@ -8,16 +8,18 @@ h1 {background-color:#2eb82e; color:#fff; text-align: center; font-size: 100px; 
 
 .quote{color: blue;}
 
-
 .hr{background-color:#2eb82e;}
+
+.green{color:#2eb82e;}
 
 
 .label{color:white;}
-.checkbox-text{color:white;};
 
 
 .btn{margin: 10px;}
+.submit{display: flex;justify-content:center; margin:30px 0px;}
+.submit-color{background-color:#2eb82e;border-color:white;}
 
-.submit{text-align: center; margin-top: 20px; margin-left:-25px;}
+.nav-links{margin-top:10px;text-align:center;}
 
 p{color:white;}

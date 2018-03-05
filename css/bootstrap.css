@@ -1,10 +1,4 @@
 
 .container{justify-content: flex-end;width: 60%; color: white; margin-top: 50px;}
 
-.name{color: white; margin-left: 0 auto; width: 60%; align-content: center;}
-
-.checkbox-container{display: flex;flex-direction:column;}
-
-
-
-.btn{background-color: green; border: 3px solid white; align-self: center;}
+.name{color:white;margin-left: 0 auto; width:60%;align-content:center;}

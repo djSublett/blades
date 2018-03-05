@@ -12,16 +12,12 @@
  Media Queries
  -------*/
 
- @media (min-width: 769px) /* applies these styles when the viewport
-   is 769 px or wider */ {
+ @media (min-width:768px) /* applies these styles when the viewport
+   is 768 px or wider */ {
    .nav{margin-top:3em;flex-direction:row;justify-content: space-around;margin:20px;}
-   .main-header{height:50px;justify-content: flex-end;}
-  
 
+   }
 
- }
-
-@media (min-width: 1024px) {
-
+@media (min-width:992px) {
 
 }

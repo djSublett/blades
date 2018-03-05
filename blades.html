@@ -22,8 +22,9 @@
 
 
      <link rel="stylesheet" href="css/blades.css">
-
      <link rel="stylesheet" href="css/nav.css">
+     <link rel="stylesheet" href="css/bootstrap.css">
+
 
    </head>
 
@@ -39,7 +40,7 @@
                   <li><a href="#">Repairs</a></li>
                   <li><a href="#">Volunteer</a></li>
               </ul>
-            </header>
+          </header>
       </div>
 
       <hr class="hr">
@@ -61,37 +62,38 @@
       </form>
 
 <!--checkboxes-->
-      <form class="checkbox-container">
-        <div class="check-center">
-        <div>
-            <input type="checkbox" id="grass" name="services">
-            <label class="checkbox-text" for="services">Grass Cutting</label>
-          </div>
-          <div>
-            <input type="checkbox" id="weed" name="services">
-            <label class="checkbox-text" for="services">Weed Eating</label>
-          </div>
-          <div>
-            <input type="checkbox" id="gutters" name="services">
-            <label class="checkbox-text" for="services">Gutters Cleaned</label>
-          </div>
-          <div>
-            <input type="checkbox" id="weed-killer" name="services">
-            <label class="checkbox-text" for="services">Weed Killer</label>
-          </div>
-        </div>
-        </form>
+
+
+
+
+
 
 
 <!--submit button-->
     <div class="submit">
-      <button type="button" class="btn btn-primary btn-lg">Submit</button>
+      <button type="button" class="btn btn-primary btn-lg submit-color">Submit</button>
     </div>
 
+<!--links from the nav bar-->
+  <div class="nav-links">
     <div class="about">
+      <h2 class="green">About:</h2>
       <p>I'm just a man looking to save other people some money on yard services,
-        while also putting a few extra bucks into my daughter's college savings account</p>
+        while also putting a few extra bucks into my daughter's college savings account.</p>
     </div>
+
+    <div class="repairs">
+        <h2 class="green">Repairs:</h2>
+        <p>Having a problem with a piece of your lawn care equipment? I would love to help.</p>
+    </div>
+
+    <div class="volunteer">
+      <h2 class="green">Volunteer:</h2>
+      <p>Do you have a teenager who you would like to see get out and learn a
+        few things about lawn care? I will gladly teach a few things and give
+        her/him something to do. <strong class="green">PLUS,</strong> it'll save you some money.</p>
+    </div>
+  </div>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
