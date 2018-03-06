@@ -1,24 +1,25 @@
 body {background-color:#000;}
 
-h1 {background-color:#2eb82e; color:#fff; text-align: center; font-size: 100px; font-weight: bolder; padding-bottom:20px;}
+h1 {background-color:#2eb82e;color:#fff;text-align:center;font-size:100px;font-weight:bolder;padding-bottom:20px;}
 
-.mowing-man{border-radius: 50px;}
+.mowing-man{border-radius:50px;}
 
-.container-fluid{text-align: center;}
-
-.quote{color: blue;}
+.quote{color:blue;}
 
 .hr{background-color:#2eb82e;}
 
 .green{color:#2eb82e;}
 
+.checkbox{display:flex;flex-direction:column;margin-top:50px;}
+.form-check{align-self:center;width:140px;}
+
 
 .label{color:white;}
 
-
-.btn{margin: 10px;}
-.submit{display: flex;justify-content:center; margin:30px 0px;}
+.btn{margin:10px;}
+.submit{display:flex;justify-content:center;margin:30px 0px;}
 .submit-color{background-color:#2eb82e;border-color:white;}
+
 
 .nav-links{margin-top:10px;text-align:center;}
 

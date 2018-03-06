@@ -2,22 +2,28 @@
 
 .nav{display:flex;flex-direction: column; margin-top:0em;}
 
-.nav-header{padding-bottom:10px; }
+
 .nav a{color:#fff; display:block; font-size: 1.5em; text-align: center; padding:.4em;}
 
 .nav a:hover{color:#2eb82e;border-color:#2eb82e;}
+
 
 
 /* ------------
  Media Queries
  -------*/
 
- @media (min-width:768px) /* applies these styles when the viewport
-   is 768 px or wider */ {
-   .nav{margin-top:3em;flex-direction:row;justify-content: space-around;margin:20px;}
-
+   /*Medium devices (tablets, 768px and up)*/
+   @media (min-width: 768px) {
+     .nav{margin-top:3em;flex-direction:row;justify-content: space-around;margin:20px;}
+     .font{font-size:19px;}
+     .checkbox{display:flex;flex-direction:row;width:auto;
+       align-content: space-between;justify-content:center;}
+     .form-check{height:60px;width:170px;justify-content:space-between;}
    }
 
-@media (min-width:992px) {
+   /*Large devices (desktops, 992px and up)*/
+   @media (min-width: 992px) {
+     .checkbox{justify-content:center;justify-content:space-around;}
 
-}
+   }
