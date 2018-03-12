@@ -1,40 +1,73 @@
-//added a fade in animation to the navs
-$('a').hide().delay(1000).fadeIn(1000);
+//added a fade in animation to the nav bar
+$('a').hide().delay(1000).fadeIn(3000);
+/**
+ * We want to make the anchor text uppercase on mouseover and
+ * return to normal on mouseout.
+ *
+ * Lets start by getting the elements we want attach listeners
+ * to
+ */
+let navAnchors = document.getElementsByTagName('a');
+/**
+ * To attach the listeners we need to loop through the
+ * elements
+ */
+for (let i = 0; i < navAnchors.length; i += 1) {
+  let a = navAnchors[i];
+/**
+ * For each anchor we need the textContent and also create a
+ * uppercase version
+ */
+  let originalText  = a.textContent;
+  let uppercaseText = a.textContent.toUpperCase();
+/**
+ * With the two text versions saved before adding the event
+ * listeners we won't have to worry about getting the correct
+ * text while inside the event handlers. We just need to set
+ * the textContent to originalText or uppercaseText.
+ */
+  // set textContent to the uppercase version on mouseover
+  a.addEventListener('mouseover', function () {
+    a.textContent = uppercaseText;
+  })
 
-
-//added a function that capitalizes all text when a mouseover occurs on the nav
-var navItems = document.getElementsByTagName('a');
-var defaultText = $('.nav li').text();
-
-for (let i = 0; i < navItems.length; i += 1) {
-navItems[i].addEventListener('mouseover', function() {
-  navItems[i].textContent = navItems[i].textContent.toUpperCase();
-});
-navItems[i].addEventListener('mouseout', function() {
-  navItems[i].textContent = navItems[i].textContent.toLowerCase();
-});
+  // set textContent to the original version on mouseout
+  a.addEventListener('mouseout', function () {
+    a.textContent = originalText;
+  })
 }
 
-// const listDiv = document.querySelector('.navList');
+//second option to add textTransformation to the mouseovers
+// var navItems = document.getElementsByTagName('a');
 //
-// listDiv.addEventListener('mouseover', function (event) {
-//   if (event.target.tagName == 'LI') {
-//   event.target.textContent = event.target.textContent.toUpperCase();
-// }
+//
+// for (let i = 0; i < navItems.length; i += 1) {
+// navItems[i].addEventListener('mouseover', function() {
+//  navItems[i].style.textTransform = "uppercase";
 // });
-// listDiv.addEventListener('mouseout', function (event) {
-//   if (event.target.tagName == 'LI') {
-//   event.target.textContent = event.target.textContent.toLowerCase();
-// }
+// navItems[i].addEventListener('mouseout', function() {
+//   navItems[i].style.textTransform = "none";
 // });
+// }
 
-//input field changes colors when clicked
+
+
+
+
+//input field changes background color when clicked
 $('.form-control').click(function() {
-  $(this).css("backgroundColor", "#2eb82e");
-  $(this).css("color", "#000");
+  $(this).css("border", "solid 3px #2eb82e");
   $(this).css("fontWeight", "bold");
+  $(this).css("fontSize", "20px");
+  $(this).css("color", "#000");
 });
-
+//input field changes background color when tabbed on
+$('.form-control').on('focus',function() {
+  $(this).css("border", "solid 3px #2eb82e");
+  $(this).css("fontWeight", "bold");
+  $(this).css("fontSize", "20px");
+  $(this).css("color", "#000");
+});
 
 
 
@@ -48,6 +81,7 @@ $('.btn').click(function() {
   console.log(phone);
   console.log(address);
 })
+
 
 // const button = document.querySelector('.btn');
 //

@@ -1,26 +1,17 @@
 body {background-color:#000;}
-
+p{color:white;}
 h1 {background-color:#2eb82e;color:#fff;text-align:center;font-size:100px;font-weight:bolder;padding-bottom:20px;}
-
-.mowing-man{border-radius:50px;}
-
-.quote{color:blue;}
-
+.mowing-man{border-radius:50px;width:100px;height:100px}
+/*horizontal line that seperates the nav bar from the content*/
 .hr{background-color:#2eb82e;}
-
-.green{color:#2eb82e;}
-
+/*start of form and checkboxes*/
 .checkbox{display:flex;flex-direction:column;margin-top:50px;}
 .form-check{align-self:center;width:140px;}
-
-
 .label{color:white;}
-
+/*styling for the submit button*/
 .btn{margin:10px;}
 .submit{display:flex;justify-content:center;margin:30px 0px;}
 .submit-color{background-color:#2eb82e;border-color:white;}
-
-
+/*styling for container-nav div*/
+.green{color:#2eb82e;}
 .nav-links{margin-top:10px;text-align:center;}
-
-p{color:white;}
