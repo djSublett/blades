@@ -68,11 +68,21 @@ $('.form-control').on('focus',function() {
   $(this).css("fontSize", "20px");
   $(this).css("color", "#000");
 });
-//input field changes back to default color when left
-let formStyle = $('.form-control').css();
-$('.form-control').on('focusout', function() {
-  $(this).css(formStyle);
+//input field changes color when change is made
+$('.form-control').on('change', function() {
+  $(this).css("backgroundColor", "#2eb82e");
 });
+
+//changed the checkbox color when checked
+$('.btn-color').click(function() {
+  $(this).css("border", "solid 5px #2eb82e");
+});
+//
+$('.check-focus').on('focus', function() {
+  $(this).css("border", "solid 1px #2eb82e");
+});
+
+
 
 
 //adding an event listener to the submit button to collect

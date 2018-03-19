@@ -5,8 +5,7 @@ h1 {background-color:#2eb82e;color:#fff;text-align:center;font-size:100px;font-w
 /*horizontal line that seperates the nav bar from the content*/
 .hr{background-color:#2eb82e;}
 /*start of form and checkboxes*/
-input[type=checkbox]:checked:after{background-color:#2eb82e;}
-}
+.form-control{color:#000;}
 
 .form-check{align-self:center;width:140px;}
 .label{color:white;}
