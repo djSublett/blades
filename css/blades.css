@@ -5,7 +5,9 @@ h1 {background-color:#2eb82e;color:#fff;text-align:center;font-size:100px;font-w
 /*horizontal line that seperates the nav bar from the content*/
 .hr{background-color:#2eb82e;}
 /*start of form and checkboxes*/
-.checkbox{display:flex;flex-direction:column;margin-top:50px;}
+input[type=checkbox]:checked:after{background-color:#2eb82e;}
+}
+
 .form-check{align-self:center;width:140px;}
 .label{color:white;}
 /*styling for the submit button*/
@@ -15,3 +17,7 @@ h1 {background-color:#2eb82e;color:#fff;text-align:center;font-size:100px;font-w
 /*styling for container-nav div*/
 .green{color:#2eb82e;}
 .nav-links{margin-top:10px;text-align:center;}
+/*footer icon*/
+.facebook span {
+	background-color: #3B5998;
+}

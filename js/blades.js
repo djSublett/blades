@@ -68,7 +68,11 @@ $('.form-control').on('focus',function() {
   $(this).css("fontSize", "20px");
   $(this).css("color", "#000");
 });
-
+//input field changes back to default color when left
+let formStyle = $('.form-control').css();
+$('.form-control').on('focusout', function() {
+  $(this).css(formStyle);
+});
 
 
 //adding an event listener to the submit button to collect
