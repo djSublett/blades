@@ -1,32 +1,20 @@
 //added a fade in animation to the nav bar
 $('a').hide().delay(1000).fadeIn(3000);
-/**
- * We want to make the anchor text uppercase on mouseover and
- * return to normal on mouseout.
- *
- * Lets start by getting the elements we want attach listeners
- * to
- */
+//added a green border to the navs when the user tabs onto them
+$('a').on('focus', function() {
+  $(this).css("border", "solid 3px #2eb82e");
+});
+$('a').on('focusout', function() {
+  $(this).css("border", "none");
+});
+
+
 let navAnchors = document.getElementsByTagName('a');
-/**
- * To attach the listeners we need to loop through the
- * elements
- */
+
 for (let i = 0; i < navAnchors.length; i += 1) {
   let a = navAnchors[i];
-/**
- * For each anchor we need the textContent and also create a
- * uppercase version
- */
   let originalText  = a.textContent;
   let uppercaseText = a.textContent.toUpperCase();
-/**
- * With the two text versions saved before adding the event
- * listeners we won't have to worry about getting the correct
- * text while inside the event handlers. We just need to set
- * the textContent to originalText or uppercaseText.
- */
-  // set textContent to the uppercase version on mouseover
   a.addEventListener('mouseover', function () {
     a.textContent = uppercaseText;
   })
@@ -50,10 +38,6 @@ for (let i = 0; i < navAnchors.length; i += 1) {
 // });
 // }
 
-
-
-
-
 //input field changes background color when clicked
 $('.form-control').click(function() {
   $(this).css("border", "solid 3px #2eb82e");
@@ -68,19 +52,12 @@ $('.form-control').on('focus',function() {
   $(this).css("fontSize", "20px");
   $(this).css("color", "#000");
 });
-//input field changes color when change is made
+//input field changes color after a change is made
 $('.form-control').on('change', function() {
   $(this).css("backgroundColor", "#2eb82e");
 });
 
-//changed the checkbox color when checked
-$('.btn-color').click(function() {
-  $(this).css("border", "solid 5px #2eb82e");
-});
-//
-$('.check-focus').on('focus', function() {
-  $(this).css("border", "solid 1px #2eb82e");
-});
+
 
 
 
@@ -95,6 +72,8 @@ $('.btn').click(function() {
   console.log(phone);
   console.log(address);
 })
+
+
 
 
 // const button = document.querySelector('.btn');
@@ -121,3 +100,13 @@ $('button').mouseout(function() {
   $(this).css("backgroundColor", "#2eb82e");
   $(this).css("color", "white");
 });
+//added the focus color when the user tabs on it
+$('button').on('focus', function() {
+  $(this).css("backgroundColor", "black");
+  $(this).css("color", "#2eb82e");
+  $(this).css("borderColor", "#2eb82e");
+})
+$('button').on('focusout', function() {
+  $(this).css("backgroundColor", "#2eb82e");
+  $(this).css("color", "white");
+})
