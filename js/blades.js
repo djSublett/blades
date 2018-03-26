@@ -2,7 +2,7 @@
 $('a').hide().delay(1000).fadeIn(3000);
 //added a green border to the navs when the user tabs onto them
 $('a').on('focus', function() {
-  $(this).css("border", "solid 2px #2eb82e");
+  $(this).css("border", "solid 3px #2eb82e");
 });
 $('a').on('focusout', function() {
   $(this).css("border", "none");
