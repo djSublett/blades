@@ -1,4 +1,4 @@
-"A website for my small lawn-care business. I used a color scheme that matches the job. I made it responsize while also adding in a cool logo right in the header that helps the name catch your eye. I added in some javascript/jQuery to make it collect the users input, as well as adding some animations to help the user become aware of where their cursor is."
+"A website for my small lawn-care business. I used a color scheme that matches the job. I made it responsive while also adding in a cool logo right in the header that helps the name catch your eye. I added in some javascript/jQuery to make it collect the users input, as well as adding some animations to help the user become aware of where their cursor is."
 
 CSS selectors:
     body {background-color:#000;}
