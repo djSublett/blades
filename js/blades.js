@@ -2,7 +2,7 @@
 $('a').hide().delay(1000).fadeIn(3000);
 //added a green border to the navs when the user tabs onto them
 $('a').on('focus', function() {
-  $(this).css("border", "solid 3px #2eb82e");
+  $(this).css("border", "solid 2px #2eb82e");
 });
 $('a').on('focusout', function() {
   $(this).css("border", "none");
@@ -40,14 +40,14 @@ for (let i = 0; i < navAnchors.length; i += 1) {
 
 //input field changes background color when clicked
 $('.form-control').click(function() {
-  $(this).css("border", "solid 3px #2eb82e");
+  $(this).css("border", "solid 4px #2eb82e");
   $(this).css("fontWeight", "bold");
   $(this).css("fontSize", "20px");
   $(this).css("color", "#000");
 });
 //input field changes background color when tabbed on
 $('.form-control').on('focus',function() {
-  $(this).css("border", "solid 3px #2eb82e");
+  $(this).css("border", "solid 4px #2eb82e");
   $(this).css("fontWeight", "bold");
   $(this).css("fontSize", "20px");
   $(this).css("color", "#000");
