@@ -57,11 +57,6 @@ $('.form-control').on('change', function() {
   $(this).css("backgroundColor", "#2eb82e");
 });
 
-
-
-
-
-
 //adding an event listener to the submit button to collect
   //user name input, phone, address
 $('.btn').click(function() {
@@ -73,9 +68,6 @@ $('.btn').click(function() {
   console.log(address);
 })
 
-
-
-
 // const button = document.querySelector('.btn');
 //
 // button.addEventListener('mouseover', function(event) {
@@ -85,10 +77,6 @@ $('.btn').click(function() {
 //    $(this).css("color", "#2eb82e");
 //    $(this).css("borderColor", "#2eb82e");
 // });
-
-
-
-
 
 //created a mouseover for the submit button
 $('button').mouseover(function() {

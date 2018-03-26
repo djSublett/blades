@@ -7,7 +7,7 @@
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before{
   background-color:#2eb82e;
 }
-/*deleted the default color submit button styling bootstrap had*/
+/*deleted the default color submit button/nav links styling bootstrap had*/
 .btn:focus, .btn:active {
   outline: none !important;
   box-shadow: none !important;
